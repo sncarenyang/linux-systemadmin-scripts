@@ -154,6 +154,6 @@ This repository demonstrates:
 
 ## 📊 Repo Stats
 
-[![Linux SysAdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
+[![Linux SysAtemdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&repo=linux-systemadmin-scripts&layout=compact&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
