@@ -21,6 +21,7 @@ This toolkit is designed with simplicity, modularity, and real-world usability i
 - Minimal dependencies for portability
 - Easy integration with cron-based automation
 - Suitable for both local Linux environments and cloud VMs
+- Includes basic error handling and dependency awareness
 
 
 ## 🚀 Features
@@ -86,7 +87,7 @@ For Ubuntu/Debian, install missing tools if needed:
 sudo apt update
 sudo apt install bc procps tar coreutils
 ```
-⚠️ Note: `bc is required for CPU threshold comparison.
+⚠️ Note: `bc` is required for CPU threshold comparison.
 
 
 ## 📱 Quick start
@@ -99,7 +100,10 @@ cd linux-systemadmin-scripts
 #### Make scripts executable:
 ```bash
 chmod +x *.sh
-make test  # Run all!
+
+ # Run all scripts
+
+make test 
 ```
 
 # 🔍 Example Output
@@ -108,12 +112,22 @@ Below is a sample run of the toolkit:
 ```bash
 $ make test
 
-Disk OK: 33%
-CPU 65%, Mem 22.6%
-Backup completed successfully
+[INFO] Disk usage: 33% (OK)
+[INFO] CPU usage: 65%
+[INFO] Memory usage: 22.6%
+[INFO] Backup completed successfully
 ```
 ⚠️ Note: Ensure `bc` is installed for CPU threshold calculations.
 
+## 📌 Usage
+
+Run individual scripts:
+
+```bash
+./disk-monitor.sh
+./cpu-mem-monitor.sh
+./backup.sh /source /backup
+```
 
 
 ## 🧠 Portfolio Value
@@ -140,6 +154,6 @@ This repository demonstrates:
 
 ## 📊 Repo Stats
 
-[![Linux SysAdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-sysadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-sysadmin-scripts)
+[![Linux SysAdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&repo=linux-sysadmin-scripts&layout=compact&theme=radical)](https://github.com/sncarenyang/linux-sysadmin-scripts)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&repo=linux-systemadmin-scripts&layout=compact&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
