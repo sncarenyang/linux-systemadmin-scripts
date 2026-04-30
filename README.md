@@ -150,6 +150,14 @@ This repository demonstrates:
 - Integration with Prometheus / Grafana
 - CI pipeline with shellcheck & bats testing
 
+## 👩‍💻 Author
+Shi-Ning Caren Yang
+
+
+## 🌐 License & Disclaimer
+- The code is released under the MIT License.
+- This is a demo project for learning and portfolio purposes.
+
 
 ## 📊 Repo Stats
 
