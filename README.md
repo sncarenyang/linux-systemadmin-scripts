@@ -63,11 +63,10 @@ linux-systemadmin-scripts/
 ├── backup.sh
 ├── demo.png
 ├── .github/workflows/ci.yml
-├── Makefile   
-└── images/
-│    └── demo.png
+├── Makefile   │    
 └── LICENSE
 ```
+
 ## ⚙️ Requirements
 
 Tested on Linux/macOS shell environments with common command-line tools:
@@ -87,6 +86,8 @@ For Ubuntu/Debian, install missing tools if needed:
 sudo apt update
 sudo apt install bc procps tar coreutils
 ```
+⚠️ Note: `bc is required for CPU threshold comparison.
+
 
 ## 📱 Quick start
 
@@ -101,9 +102,19 @@ chmod +x *.sh
 make test  # Run all!
 ```
 
-## ⚛️  Example Output
+# 🔍 Example Output
 
-![demo.png](/images/demo.png)
+Below is a sample run of the toolkit:
+```bash
+$ make test
+
+Disk OK: 33%
+CPU 65%, Mem 22.6%
+Backup completed successfully
+```
+⚠️ Note: Ensure `bc` is installed for CPU threshold calculations.
+
+
 
 ## 🧠 Portfolio Value
 
