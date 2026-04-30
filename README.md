@@ -97,11 +97,9 @@ sudo apt install bc procps tar coreutils
 git clone https://github.com/sncarenyang/linux-systemadmin-scripts
 cd linux-systemadmin-scripts
 ```
-#### Make scripts executable:
+### Make scripts executable and run all:
 ```bash
 chmod +x *.sh
-
- # Run all scripts
 
 make test 
 ```
@@ -119,6 +117,7 @@ $ make test
 ```
 ⚠️ Note: Ensure `bc` is installed for CPU threshold calculations.
 
+
 ## 📌 Usage
 
 Run individual scripts:
@@ -128,7 +127,7 @@ Run individual scripts:
 ./cpu-mem-monitor.sh
 ./backup.sh /source /backup
 ```
-
+> `/source` and `/backup` should be valid directories.
 
 ## 🧠 Portfolio Value
 
@@ -154,6 +153,6 @@ This repository demonstrates:
 
 ## 📊 Repo Stats
 
-[![Linux SysAtemdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
+[![Linux SysAdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&repo=linux-systemadmin-scripts&layout=compact&theme=radical)](https://github.com/sncarenyang/linux-systemadmin-scripts)
