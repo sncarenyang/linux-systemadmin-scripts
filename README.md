@@ -21,6 +21,9 @@ cd linux-systemadmin-scripts
 chmod +x *.sh
 make test  # Run all!
 ```
+
+## ⚛️  Example Output
+
 ![demo.png](/demo.png)
 
 ## 📊 Repo Stats
