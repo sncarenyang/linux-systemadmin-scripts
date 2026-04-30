@@ -63,7 +63,7 @@ linux-systemadmin-scripts/
 ├── backup.sh
 ├── demo.png
 ├── .github/workflows/ci.yml
-├── Makefile   │    
+├── Makefile   
 └── LICENSE
 ```
 
