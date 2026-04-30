@@ -1,11 +1,11 @@
 
-# 🐧 Linux SysAdmin Scripts Toolkit
+# 🐧 Linux systemadmin Scripts Toolkit
 
-**Bash scripts** for **system monitoring, alerting, and automation**. Perfect for DevOps/sysadmin portfolios. Built during Linux System Admin course.
+**Bash scripts** for **system monitoring, alerting, and automation**. Perfect for DevOps/systemadmin portfolios. Built during Linux System Admin course.
 
-[![Build](https://github.com/sncarenyang/linux-sysadmin-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/sncarenyang/linux-sysadmin-scripts/actions)
-[![License](https://img.shields.io/github/license/sncarenyang/linux-sysadmin-scripts)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/sncarenyang/linux-sysadmin-scripts?style=social)]
+[![Build](https://github.com/sncarenyang/linux-systemadmin-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/sncarenyang/linux-systemadmin-scripts/actions)
+[![License](https://img.shields.io/github/license/sncarenyang/linux-systemadmin-scripts)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/sncarenyang/linux-systemadmin-scripts?style=social)]
 
 ## 🚀 Features
 - **Disk Monitor**：Alert >80% usage
@@ -15,7 +15,7 @@
 
 ## 📱 Quick Demo
 ```bash
-git clone https://github.com/sncarenyang/linux-sysadmin-scripts
-cd linux-sysadmin-scripts
+git clone https://github.com/sncarenyang/linux-systemadmin-scripts
+cd linux-systemadmin-scripts
 chmod +x *.sh
 make test  # Run all!
