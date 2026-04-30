@@ -13,23 +13,56 @@ This repository demonstrates core Linux system administration skills, including 
 
 This project was built as a practical **DevOps / Linux portfolio repo**. It focuses on small but useful scripts that a system administrator, cloud engineer, or AI engineer may use when maintaining Linux-based development or deployment environments.
 
+## 🧩 Design Philosophy
+
+This toolkit is designed with simplicity, modularity, and real-world usability in mind:
+
+- Each script is independent and reusable
+- Minimal dependencies for portability
+- Easy integration with cron-based automation
+- Suitable for both local Linux environments and cloud VMs
+
 
 ## 🚀 Features
-- **Disk Monitor**：Alert >80% usage
-- **CPU/Mem Monitor**：Real-time % + thresholds
-- **Backup Tool**：Daily tar.gz home backup
-- Cross-platform (WSL/Ubuntu/Colab)
+
+- **Disk Monitoring**
+  - Monitors disk usage using `df`
+  - Triggers alerts when usage exceeds defined thresholds (default: 80%)
+
+- **CPU & Memory Monitoring**
+  - Tracks real-time CPU and memory usage
+  - Uses `top`, `free`, and `bc` for threshold-based alerting
+
+- **Backup Automation**
+  - Creates compressed `.tar.gz` backups of user directories
+  - Timestamp-based naming for versioned backups
+
+- **Automation Ready**
+  - Designed for integration with `cron` for scheduled execution
+ 
+## ☁️ Cloud / DevOps Relevance
+
+These scripts simulate common operational tasks in real-world environments:
+
+- Monitoring system resources on cloud virtual machines
+- Automating backup processes for persistent storage
+- Scheduling jobs via cron (analogous to cloud schedulers)
+
+This project demonstrates foundational skills required for:
+- DevOps engineering
+- Cloud infrastructure management
+- AI system deployment environments
 
 ## 🏗️ Project Structure
 ```text
-linux-scripts-toolkit/
+linux-systemadmin-scripts/
 ├── README.md
 ├── .gitignore
 ├── disk-monitor.sh
 ├── cpu-mem-monitor.sh
 ├── backup.sh
 ├── demo.png
-├── .github/workflow/ci.yml
+├── .github/workflows/ci.yml
 ├── Makefile   
 └── images/
 │    └── demo.png
@@ -72,34 +105,26 @@ make test  # Run all!
 
 ![demo.png](/images/demo.png)
 
-##  🧠 Portfolio value
+## 🧠 Portfolio Value
 
-This repo highlights:
+This repository demonstrates:
 
-- Linux command-line fundamentals
-- Bash scripting
-- System resource monitoring
-- Backup automation
-- Cron-ready operational scripting
-- Practical troubleshooting mindset
-
-It is suitable for roles related to:
-
-- Linux system administration
-- Cloud engineering
-- DevOps / SRE fundamentals
-- AI application deployment support
+- Linux command-line proficiency
+- Bash scripting and automation
+- System monitoring and alerting
+- Backup and file system management
+- Operational thinking in DevOps environments
 
 
 
 ## 📈 Future Improvements
-Possible next features:
-- Add configurable threshold values
-- Add logging to a dedicated logs/ folder
-- Add email or Slack notification support
-- Add command-line arguments
-- Add unit tests with shellcheck and bats
-- Add GitHub Actions workflow for shell script linting
+
+- Configurable thresholds via CLI arguments
+- Logging system with rotating log files
+- Email / Slack alert integration
+- Docker container monitoring support
+- Integration with Prometheus / Grafana
+- CI pipeline with shellcheck & bats testing
 
 
 ## 📊 Repo Stats
