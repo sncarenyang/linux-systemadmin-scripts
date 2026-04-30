@@ -5,8 +5,7 @@
 
 [![Build](https://github.com/sncarenyang/linux-systemadmin-scripts/actions/workflows/ci.yml/badge.svg)](https://github.com/sncarenyang/linux-systemadmin-scripts/actions)
 [![License](https://img.shields.io/github/license/sncarenyang/linux-systemadmin-scripts)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/sncarenyang/linux-systemadmin-scripts?style=social)]
-
+[![Stars](https://img.shields.io/github/stars/sncarenyang/linux-systemadmin-scripts?style=social)](https://github.com/sncarenyang/linux-systemadmin-scripts)
 ## 🚀 Features
 - **Disk Monitor**：Alert >80% usage
 - **CPU/Mem Monitor**：Real-time % + thresholds
@@ -20,5 +19,8 @@ cd linux-systemadmin-scripts
 chmod +x *.sh
 make test  # Run all!
 ```
-![Repo Graph](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-systemadmin-scripts&show_icons=true)[web:82]
-# Test commit
+## 📊 Repo Stats
+
+[![Linux SysAdmin Stats](https://github-readme-stats.vercel.app/api?username=sncarenyang&repo=linux-sysadmin-scripts&show_icons=true&theme=radical)](https://github.com/sncarenyang/linux-sysadmin-scripts)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sncarenyang&repo=linux-sysadmin-scripts&layout=compact&theme=radical)](https://github.com/sncarenyang/linux-sysadmin-scripts)
