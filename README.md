@@ -104,7 +104,7 @@ chmod +x *.sh
 make test 
 ```
 
-# 🔍 Example Output
+## 🔍 Example Output
 
 Below is a sample run of the toolkit:
 ```bash
